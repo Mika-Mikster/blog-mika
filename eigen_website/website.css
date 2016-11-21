@@ -1,0 +1,104 @@
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  color: #2B1B17;
+  background-color: #E5E4E2;
+  font-family: Cagliostro, "Comic Sans", cursive;
+  font-size: 1.2em;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.top {
+  font-size: 2em;
+  color: #FFF5EE;
+  background-color: #C35817;
+  padding-top: 20px;
+  padding-left: 10px;
+  border: 2px solid #C11B17;
+}
+
+#main_navigation {
+  background-color: #C35817;
+  padding-top: 5px;
+  padding-left: 0px;
+  border: 2px solid #C11B17;
+  color: #FFF5EE;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 5px;
+  color: #FFF5EE;
+}
+
+nav li {
+  display: inline;
+  color: #FFF5EE;
+}
+
+nav ul li.selected {
+  color: #1780C2;
+  font-weight: lighter;
+}
+
+a link.visited {
+  color: #FFF5EE;
+  font-style: italic;
+}
+
+a {
+  color: #000080;
+  text-decoration: none;
+  top: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#social_media_sidebar {
+  float: right;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+#social_media_sidebar ul {
+  text-decoration: underline;
+}
+
+#social_media_sidebar h3 {
+  text-decoration: none;
+}
+
+em {
+  font-weight: bold;
+  color: #C35817;
+}
+
+q {
+  font-weight: bold;
+  color: #C35817;
+  font-family: monospace;
+}
+
+blockquote {
+  font-style: italic;
+  font-family: fantasy;
+  color: #C35817;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #000080;
+  background-color: #C35817;
+  border: 2px solid #C11B17;
+}

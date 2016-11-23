@@ -1,0 +1,7 @@
+<svg>
+    <g class="triforce" transform="translate(45,67)">
+        <polygon points="100,180 200,0 0,0 "></polygon>
+        <polygon points="100,180 200,0 0,0"></polygon>
+        <polygon points="100,180 200,0 0,0"></polygon>
+    </g>
+</svg>

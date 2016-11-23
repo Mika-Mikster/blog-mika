@@ -23,6 +23,11 @@
         <li><a href="./battleship/index.html">Battleship (VanillaJS)</a></li>
     </ul>
 
+    <h1>Other programming work</h1>
+    <ul>
+        <li><a href="./eigen_website/website.html">First version website</a></li>
+    </ul>
+
 </div>
 
 </body>

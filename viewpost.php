@@ -22,7 +22,7 @@ if($row['postID'] == ''){
 
 	<div id="wrapper">
 
-		<header class="top">Welcome to Mika's World</header>
+        <header class="top">Welcome to Mika's World</header>
 		<nav id="main_menu">
 			<ul>
 				<li><a href="./eigen_website/website.html">Home</a></li>

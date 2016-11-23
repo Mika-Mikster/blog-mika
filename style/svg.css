@@ -1,0 +1,42 @@
+svg {
+    height: auto;
+    width: 50%;
+}
+
+circle {
+    fill: none;
+    stroke: #008B6F;
+    stroke-width: 7px;
+}
+
+line {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+text {
+    font-size: 60px;
+    text-anchor: middle;
+    font-family: Georgia;
+    stroke: #000;
+    stroke-width: 3px;
+    fill: #F6F7F3;
+}
+
+polygon {
+    fill: #008B6F;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.polygon_group polygon{
+    fill: #008B6F;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.triforce polygon{
+    fill: #EDDA74;
+    stroke: #EDDA74;
+    stroke-width: 1px;
+}

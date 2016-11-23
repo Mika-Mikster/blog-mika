@@ -60,6 +60,13 @@ nav ul li.selected {
 	border-collapse: collapse;
 }
 
+#logo img {
+	float: right;
+	display: inline;
+	padding: 100px;
+	margin: 100px;
+}
+
 
 .clear {
 	clear: both;

@@ -1,0 +1,121 @@
+html {
+    display: block;
+    overflow: hidden;
+}
+
+svg {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#triforce {
+    width: 230px;
+    position: absolute;
+    height: 400px;
+    left: 30%;
+    animation: spin 6s linear infinite;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+}
+
+svg.left{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+}
+
+svg.right{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+svg.top {
+    position: absolute;
+    bottom: 23px;
+}
+
+#front {
+    transform: translateZ(10px);
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    backface-visibility: visible;
+}
+
+#back {
+    transform: translateZ(-10px);
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    backface-visibility: visible;
+}
+
+@keyframes spin {
+    100% {transform: rotateY(360deg);}
+}
+
+.border-left {
+    width: 25px;
+    height: 110px;
+    display: block;
+    background: #FDD017;
+    top: 18px;
+    left: 150px;
+    /*z-index: 99;*/
+    position: absolute;
+    backface-visibility: visible;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg) rotateX(32deg)
+        translateZ(-10px);
+}
+
+.border-right {
+    width: 25px;
+    height: 110px;
+    display: block;
+    background: #FDD017;
+    top: 18px;
+    right: 130px;
+    /*z-index: 99;*/
+    position: absolute;
+    backface-visibility: visible;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg) rotateX(-32deg)
+    translateZ(10px);
+}
+
+.border-inleft {
+    width: 25px;
+    height: 50px;
+    display: block;
+    background: #FDD017;
+    top: 75px;
+    left: 105px;
+    /*z-index: 99;*/
+    position: absolute;
+    backface-visibility: visible;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg) rotateX(32deg)
+    translateZ(-10px);
+}
+
+.border-inright {
+    width: 25px;
+    height: 50px;
+    display: block;
+    background: #FDD017;
+    top: 75px;
+    right: 85px;
+    /*z-index: 99;*/
+    position: absolute;
+    backface-visibility: visible;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg) rotateX(-32deg)
+    translateZ(10px);
+}
+
+
+
+
